@@ -1,0 +1,27 @@
+What is the Internet?
+Internet is a global computer network providing a variety of information and communication facilities
+consisting of interconnected networks using statndardized coummnication protocols. At times referred to as "metwork of networks", it connects compiters all over the world.
+
+How does the internet work?
+The Internet uses both physical connection,through cables,and wireless connection ,through WIFI, to transfer information and resources from one device to another through interconnected routers and switches that direct packets of information.
+
+What is a domain name?
+Domain name is a unique name that serves as the address for a website or other internet resource. Eg https://www.chelseashop.com
+
+DNS and how it works
+Domain Nme System or DNS is an operating system that translates doamin names to IP address that the computer can use to locate web contnet and services.The DNS resolver performs a hierarchical lookup through root,top-level domain, and authoritative name servers to find the correct IP address and return it to the requesting device
+
+Browsers and how they work
+A web browsers works by sending a URL to a DNS server to find the IP address of the website's server, then requesting the site's files (like HTML,CSS and JavaScript) via HTTP. It then uses a rendering engine to translate this code into a visual page, assembling and displaying the elements
+
+What are markup languages?
+Markup languages are systems that use special tags to define the structure, presentation,and meaning of digital documents,primarily web pages,data storage, and document formatting.
+
+What is front end development?
+Front end development focuses on the part of the website or application that users directly interact with in their browser,encompassing everything from the visual layout and design to interactive elements and overall user experience.
+
+What is HTTP?
+Hypertext Transfer Protocol (HTTP) is the primary protocol for transmission of informationacross the internet such as text images and videos between web clients and web servers
+
+How does the web work?
+The web works on a client-server model : the browser(client)sends  an HTTP request to a web server for website files,the server finds and sends these files back as data packets and your browser assembles and renders the content, displaying the webpage to you.
