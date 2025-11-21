@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McMary's Restaurant</title>
+    <link rel="stylesheet" href="restaurant.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>M<span>c</span>Mary's Restaurant</h1>
+      <nav>
+        <ul>
+          <li><a href="restaurant.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Welcome to McMary's Restaurant</h2>
+      <p>Home of Delicious Ghanaian food and excellent catering services</p>
+      <a href="menu.html">Explore Menu</a>
+    </section>
+    <footer>
+      <p>&copy; 2025 McMary's Restaurant</p>
+    </footer>
+  </body>
+  <div id="toast" class="toast">Welcome to McMary's Restaurant!</div>
+  <script>
+    window.onload = function () {
+      const toast = document.getElementById("toast");
+      toast.classList.add("show");
+
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 4000);
+    };
+  </script>
+</html>
